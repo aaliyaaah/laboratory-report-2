@@ -1,8 +1,8 @@
 # Laboratory report no. 2
-Name: Aaliyah Nicole O. Javier
-Student number: 20221132101
-Subject & Section: NEC 3202 - 3ECE-2A
-Professor: Engr. Carlo Palanca Jr., ECT
+- Name: Aaliyah Nicole O. Javier
+- Student number: 20221132101
+- Subject & Section: NEC 3202 - 3ECE-2A
+- Professor: Engr. Carlo Palanca Jr., ECT
 
 ## **Experiment 9: Frequency Modulation**
 
