@@ -1,12 +1,10 @@
-# LABORATORY 2
+# Laboratory report no. 2
+Name: Aaliyah Nicole O. Javier
+Student number: 20221132101
+Subject & Section: NEC 3202 - 3ECE-2A
+Professor: Engr. Carlo Palanca Jr., ECT
 
 ## **Experiment 9: Frequency Modulation**
-
-**Equipment:**
-- Emona Telecoms-Trainer 101 (plus power-pack)
-- Dual channel 20MHz oscilloscope
-- Two Emona Telecoms-Trainer 101 oscilloscope leads
-- Assorted Emona Telecoms-Trainer 101 patch leads
 
 **Part A** - Frequency modulating a squarewave  
 **Part B** - Generating a FM signal using speech  
@@ -15,13 +13,6 @@
 ---
 
 ## **Experiment 10: FM Demodulation**
-
-**Equipment:**
-- Emona Telecoms-Trainer 101 (plus power-pack)
-- Dual channel 20MHz oscilloscope
-- Two Emona Telecoms-Trainer 101 oscilloscope leads
-- Assorted Emona Telecoms-Trainer 101 patch leads
-- One set of headphones (stereo)
 
 **Part A** - Setting up the FM modulator  
 **Part B** - Setting up the zero-crossing detector  
@@ -61,5 +52,5 @@
 ## **Experiment 14: Bandwidth Limiting and Restoring Digital Signals**
 
 **Part A** - The effects of bandwidth limiting on PCM decoding  
-**Part B** - The effects of bandwidth limiting on a digital signal’s shape  
+**Part B** - The effects of bandwidth limiting on a digital’s shape  
 **Part C** - Restoring digital signals
