@@ -1,1 +1,205 @@
-aaa
+# Experiment 9 – Frequency Modulation (FM)
+
+Communications 2 Laboratory  
+Emona Telecoms-Trainer 101
+
+---
+
+# Overview
+
+This experiment introduces the concept of **frequency modulation (FM)** and demonstrates how a message signal affects the **frequency of a carrier wave**. Unlike amplitude modulation (AM), FM encodes information by varying the **frequency** of the carrier rather than its amplitude.
+
+FM is widely used in communication systems because it is **less susceptible to noise** compared to amplitude-based modulation schemes.
+
+This laboratory experiment demonstrates:
+
+- Generation of a frequency modulated signal
+- FM using squarewave and speech signals
+- Observation of FM spectral composition
+
+---
+
+# Theory
+
+## Frequency Modulation
+
+Frequency modulation is a type of analog modulation where the **frequency of the carrier signal varies according to the amplitude of the message signal**, while the carrier amplitude remains constant.
+
+Mathematically, an FM signal can be expressed as:
+
+\[
+s(t) = A_c \cos (2\pi f_c t + \beta \sin(2\pi f_m t))
+\]
+
+Where:
+
+| Symbol | Meaning |
+|------|------|
+| \(A_c\) | Carrier amplitude |
+| \(f_c\) | Carrier frequency |
+| \(f_m\) | Message frequency |
+| \(\beta\) | Modulation index |
+
+Key properties of FM signals:
+
+- Carrier **amplitude remains constant**
+- Carrier **frequency changes based on message signal**
+- FM signals are **more immune to noise**
+
+---
+
+# Conceptual Signal Behavior
+
+### Message Signal
+A squarewave or speech signal acts as the **input message**.
+
+### Unmodulated Carrier
+A pure sinewave produced by the VCO.
+
+### Frequency Modulated Signal
+The frequency of the carrier **increases and decreases depending on the message signal amplitude**.
+
+Example behavior:
+
+```
+Message signal
+ ┌───┐   ┌───┐
+ │   │   │   │
+ └───┘   └───┘
+
+Carrier
+ ~~~~~~~~~~~~~~~
+
+FM Signal
+ ~~~~ ~~~~~~~ ~~~~
+```
+
+The **carrier cycles compress and expand** depending on the message signal.
+
+---
+
+# Experiment Objectives
+
+1. Generate a **frequency modulated signal using a squarewave**
+2. Generate an **FM signal using speech**
+3. Observe the **spectral composition of FM signals**
+
+---
+
+# Part A – Frequency Modulating a Squarewave
+
+In this part of the experiment, a **squarewave message signal** is used to modulate a carrier produced by the **VCO module**.
+
+## Procedure Summary
+
+1. Configure the oscilloscope **timebase to 20 µs/div**
+2. Adjust the VCO **frequency control**
+3. Observe the **unmodulated carrier waveform**
+4. Apply the **squarewave message signal**
+5. Observe the resulting **frequency modulated waveform**
+
+## Observation
+
+When the message signal changes polarity:
+
+- The **carrier frequency increases** when the message is positive
+- The **carrier frequency decreases** when the message is negative
+
+However, the **carrier amplitude remains constant**.
+
+---
+
+# Part B – Generating an FM Signal Using Speech
+
+Instead of a squarewave, the **speech module** is used as the message signal.
+
+## Procedure Summary
+
+1. Disconnect the squarewave source
+2. Connect the **speech module output**
+3. Set oscilloscope trigger to **CH2**
+4. Speak or hum into the microphone
+5. Observe the FM waveform on the oscilloscope
+
+## Observation
+
+The frequency of the carrier varies continuously depending on the **speech amplitude and pitch**.
+
+Higher amplitude voice signals produce **larger frequency deviation**.
+
+---
+
+# Relationship Between Frequency Deviation and Message Amplitude
+
+**Question 2**
+
+What is the relationship between the FM signal's frequency deviation and the amplitude of the message?
+
+### Answer
+
+The **frequency deviation increases as the amplitude of the message signal increases**.
+
+This means that stronger input signals cause the carrier frequency to deviate further from its center frequency.
+
+---
+
+# Relationship Between Frequency Deviation and Message Frequency
+
+**Question 3**
+
+What is the relationship between frequency deviation and message frequency?
+
+### Answer
+
+The **frequency deviation is primarily determined by the message amplitude**, not the message frequency.
+
+However, the **rate of frequency variation follows the frequency of the message signal**.
+
+---
+
+# Part C – Spectral Composition of FM Signals
+
+FM signals contain **many frequency components**, known as **sidebands**.
+
+These sidebands appear at:
+
+\[
+f_c \pm nf_m
+\]
+
+where \(n = 1,2,3...\)
+
+Unlike AM, which has only two sidebands, FM produces **multiple sidebands**, making its spectrum more complex.
+
+---
+
+# Observations
+
+Key observations from the experiment:
+
+- FM signals maintain **constant amplitude**
+- Carrier **frequency varies with the message**
+- Speech signals produce **continuous frequency variation**
+- FM signals contain **many spectral components**
+
+---
+
+# Conclusion
+
+This experiment demonstrated the fundamental principle of **frequency modulation** using the Emona Telecoms-Trainer 101.
+
+The experiment confirmed that:
+
+- FM encodes information in **frequency variations**
+- Carrier amplitude remains **constant**
+- Message amplitude affects **frequency deviation**
+- FM signals contain **multiple spectral components**
+
+These properties make FM more **robust against noise**, which is why it is commonly used in **radio broadcasting and communication systems**.
+
+---
+
+# Author
+
+Communications 2 Laboratory  
+Experiment 9 – Frequency Modulation
